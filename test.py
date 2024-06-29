@@ -4,6 +4,8 @@ import cv2
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 
+
+
 # Function to detect the approximate midpoint between eyes
 def detect_midpoint(face_region, face_coords):
     (x, y, w, h) = face_coords
